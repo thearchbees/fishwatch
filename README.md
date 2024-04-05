@@ -1,6 +1,4 @@
-# Fish Watch System
-
----
+# Fish Watch 
 
 ![image](./images/FishWatch_Banner.gif)  
 
@@ -16,8 +14,6 @@
 - [Decisions - Focus is Honey](#decisions---focus-is-honey-)
 - [Operational Approach - No Fishy Deals](#operational-approach---no-fishy-deals-)
 - [Evolve - You adapt change](#evolve---you-adapt-change-)
-
----
 
 ## Prologue  [🔝](#table-of-contents)
 Livestock Insights Incorporated, a pioneer in livestock monitoring solutions, is venturing into aquaculture with its innovative FishWatch system. This platform is designed to revolutionize fish farming by providing real-time insights into water quality, fish health, and environmental conditions, enabling proactive management and optimization of fish farm operations.
@@ -106,3 +102,5 @@ Web and mobile applications for farm monitoring and management.
 - **Scalability Plans**: Designed to scale horizontally, allowing for increased capacity as the number of farms and data volume grows.
 - **Extensibility Considerations**: Modular architecture enables the addition of new features and integration with emerging technologies.
 - **Future Enhancements**: Potential integration with advanced sensors, IoT devices, and AI-driven analytics for enhanced fish health monitoring and environmental management.
+
+---
