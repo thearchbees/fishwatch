@@ -1,8 +1,10 @@
-<div align="center">
-&nbsp; Fish Watch &nbsp;
-</div>
+# Fish Watch System
+
+---
 
 ![image](./images/FishWatch_Banner.gif)  
+
+---
 
 # [Table Of Contents](#table-of-contents-)
 - [Prologue](#prologue-)
@@ -15,6 +17,7 @@
 - [Operational Approach - No Fishy Deals](#operational-approach---no-fishy-deals-)
 - [Evolve - You adapt change](#evolve---you-adapt-change-)
 
+---
 
 ## Prologue  [🔝](#table-of-contents)
 Livestock Insights Incorporated, a pioneer in livestock monitoring solutions, is venturing into aquaculture with its innovative FishWatch system. This platform is designed to revolutionize fish farming by providing real-time insights into water quality, fish health, and environmental conditions, enabling proactive management and optimization of fish farm operations.
