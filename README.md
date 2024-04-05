@@ -6,26 +6,26 @@
 
 # [Table Of Contents](#table-of-contents-)
 - [Prologue](#prologue-)
-- [The ArchBees - Our Insight](#the-archbees---our-insight-)
+- [Our Insight](#our-insight-)
 - [Lets Talk Business - FishWatch Key Requirements](#lets-talk-business---fishwatch-key-requirements-)
-- [Strategy](#strategy-)
+- [Solution Approach](#solution-approach-)
 - [High Level Architecture](#high-level-architecture-)
 - [Capabilities & Systems - Our BeeHives](#capabilities--systems---our-beehives-)
 - [Decisions - Focus is Honey](#decisions---focus-is-honey-)
-- [Operational Approach - No Fishy Deals](#operational-approach---no-fishy-deals-)
+- [Operational Strategy - No Fishy Deals](#operational-strategy---no-fishy-deals-)
 - [Evolve - You adapt change](#evolve---you-adapt-change-)
 
 ## Prologue  [🔝](#fishwatch)
 Livestock Insights Incorporated, a pioneer in the field of livestock monitoring solutions, is expanding its expertise into the realm of aquaculture with the introduction of the FishWatch system. This innovative platform is strategically designed to transform the aquaculture industry by providing fish farmers with real-time insights into water quality, fish health, and environmental conditions. By leveraging advanced technology, FishWatch aims to enable proactive management and optimization of fish farm operations, thus enhancing the overall productivity and sustainability of aquaculture practices.The development of the FishWatch system is driven by the increasing demand for efficient and data-driven fish farming solutions. As the global population continues to grow, so does the demand for seafood. Aquaculture has emerged as a vital industry to meet this demand, but it faces challenges such as disease outbreaks, environmental pollution, and resource management. FishWatch addresses these challenges by offering a comprehensive monitoring solution that empowers fish farmers to make informed decisions, reduce risks, and maximize yields.
 
-## The ArchBees - Our Insight  [🔝](#fishwatch)
-### We 're BeeKeepers 
-  ![image](./images/TheArchBees_Logo.png) 
+## Our Insight  [🔝](#fishwatch)
+
+   ![image](./images/TheArchBees_Logo.png) 
   - [Kushagra Rana](https://www.linkedin.com/in/kushagrar/)
   - [Salil Sharma](https://www.linkedin.com/in/salil-sharma-36170b24/)
   - [Pratik Purohit](https://www.linkedin.com/in/pratik-kumar-purohit-a776844b/)
     
-We specialize in scalable and robust systems, committed to delivering cutting-edge solutions that cater to the unique needs of our clients. 
+  We specialize in scalable and robust systems, committed to delivering cutting-edge solutions that cater to the unique needs of our clients. 
 
 ### Architecture Work for FishWatch
 - Conducted a thorough analysis of the aquaculture industry and client requirements.
@@ -47,7 +47,7 @@ We specialize in scalable and robust systems, committed to delivering cutting-ed
 - Robust security measures to protect data and system integrity.
 - Compliance with regulations based on geographical locations.
 
-## Strategy [🔝](#fishwatch)
+## Solution Approach [🔝](#fishwatch)
 ### Methodology
 Adopted an iterative design process with client collaboration, focusing on modularity to accommodate future changes.
 
@@ -98,7 +98,7 @@ Web and mobile applications for farm monitoring and management.
 - **API Management**: Employed an API gateway for security and scalability.
 - **Security Protocols**: Implemented industry-standard security practices (e.g., OAuth 2.0, JWT for authentication; HTTPS for data encryption).
 
-## Operational Approach - No Fishy Deals [🔝](#fishwatch)
+## Operational Strategy - No Fishy Deals [🔝](#fishwatch)
 - **Deployment**: Automated deployment pipelines for consistent and reliable updates to the FishWatch system.
 - **Monitoring and Logging**: Utilized tools like Prometheus, Grafana, and the ELK Stack for system monitoring and log management.
 - **Disaster Recovery**: Cloud-based backup and replication strategies to ensure data integrity and system availability.
