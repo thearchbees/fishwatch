@@ -1,6 +1,7 @@
 <div align="center">
 &nbsp; Fish Watch &nbsp;
 </div>
+
 ![image](./images/FishWatch_Banner.gif)  
 
 # [Table Of Contents](#table-of-contents-)
