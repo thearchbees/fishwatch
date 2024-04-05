@@ -8,11 +8,11 @@
 - [Prologue](#prologue-)
 - [Our Insight](#our-insight-)
 - [Lets Talk Business - FishWatch Key Requirements](#lets-talk-business---fishwatch-key-requirements-)
-- [Strategy](#strategy-)
+- [Solution Approach](#solution-approach-)
 - [High Level Architecture](#high-level-architecture-)
 - [Capabilities & Systems - Our BeeHives](#capabilities--systems---our-beehives-)
 - [Decisions - Focus is Honey](#decisions---focus-is-honey-)
-- [Operational Approach - No Fishy Deals](#operational-approach---no-fishy-deals-)
+- [Operational Strategy - No Fishy Deals](#operational-strategy---no-fishy-deals-)
 - [Evolve - You adapt change](#evolve---you-adapt-change-)
 
 ## Prologue  [🔝](#fishwatch)
@@ -47,7 +47,7 @@ Livestock Insights Incorporated, a pioneer in the field of livestock monitoring 
 - Robust security measures to protect data and system integrity.
 - Compliance with regulations based on geographical locations.
 
-## Strategy [🔝](#fishwatch)
+## Solution Approach [🔝](#fishwatch)
 ### Methodology
 Adopted an iterative design process with client collaboration, focusing on modularity to accommodate future changes.
 
@@ -98,7 +98,7 @@ Web and mobile applications for farm monitoring and management.
 - **API Management**: Employed an API gateway for security and scalability.
 - **Security Protocols**: Implemented industry-standard security practices (e.g., OAuth 2.0, JWT for authentication; HTTPS for data encryption).
 
-## Operational Approach - No Fishy Deals [🔝](#fishwatch)
+## Operational Strategy - No Fishy Deals [🔝](#fishwatch)
 - **Deployment**: Automated deployment pipelines for consistent and reliable updates to the FishWatch system.
 - **Monitoring and Logging**: Utilized tools like Prometheus, Grafana, and the ELK Stack for system monitoring and log management.
 - **Disaster Recovery**: Cloud-based backup and replication strategies to ensure data integrity and system availability.
