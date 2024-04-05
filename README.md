@@ -1,15 +1,15 @@
 ![image](./images/FishWatch_Banner.gif)  
 
 # [Table Of Contents](#table-of-contents-)
-- [Prologue](#prologue)
-- [The ArchBees - Our Insight](#the-archbees-)
-- [Lets Talk Business - FishWatch Key Requirements](#fishwatch-key-requirements-)
+- [Prologue](#prologue-)
+- [The ArchBees - Our Insight](#the-archbees-our-insight-)
+- [Lets Talk Business - FishWatch Key Requirements](#-fishwatch-key-requirements-)
 - [Strategy](#strategy-)
 - [High Level Architecture](#high-level-architecture-)
 - [Capabilities & Systems - Our BeeHives](#capabilities-systems-)
-- [Decisions - Focus is Honey](#decision-records-)
+- [Decisions - Focus is Honey](#decisions-)
 - [Operational Approach - No Fishy Deals](#operational-approach-)
-- [Evolve - You adapt change](#evolve-)
+- [Evolve - You adapt change](#evolve-you-adapt-change-)
 
 
 ## Prologue [🔝](#--table-of-contents--)
