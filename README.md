@@ -1,4 +1,4 @@
-# FishWatch System
+![image](./images/FishWatch_Banner.gif)  
 
 ## 1. Prologue
 Livestock Insights Incorporated, a pioneer in livestock monitoring solutions, is venturing into aquaculture with its innovative FishWatch system. This platform is designed to revolutionize fish farming by providing real-time insights into water quality, fish health, and environmental conditions, enabling proactive management and optimization of fish farm operations.
