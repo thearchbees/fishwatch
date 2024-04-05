@@ -27,10 +27,6 @@ Livestock Insights Incorporated, a pioneer in the field of livestock monitoring 
     
   We specialize in scalable and robust systems, committed to delivering cutting-edge solutions that cater to the unique needs of our clients. 
 
-### Architecture Work for FishWatch
-- Conducted a thorough analysis of the aquaculture industry and client requirements.
-- Developed a tailor-made architecture for FishWatch, focusing on flexibility, scalability, security and extensibility.
-
 ## Lets Talk Business - FishWatch Key Requirements [🔝](#fishwatch)
 - Multitenancy for data isolation among different users.
 - Scalability to handle increasing volumes of data and users.
@@ -48,10 +44,15 @@ Livestock Insights Incorporated, a pioneer in the field of livestock monitoring 
 - Compliance with regulations based on geographical locations.
 
 ## Solution Approach [🔝](#fishwatch)
-### Methodology
-Adopted an iterative design process with client collaboration, focusing on modularity to accommodate future changes.
+Our methodology for designing the FishWatch system was centered around a comprehensive and collaborative approach. We began with a thorough analysis of the aquaculture industry's needs and the specific requirements outlined by Livestock Insights Incorporated.
+- **Solution Design**: Based on the requirements, we crafted a modular and scalable architecture that addresses the core objectives of real-time data processing & monitoring, data analysis, connectivity and user accessibility.
+  
+  ![image](./images/FIshWatchSolutionApproach.svg) 
 
-### Challenges & Solutions
+### Architecture Work for FishWatch
+Our architectural work for the FishWatch system was guided by a deep understanding of the aquaculture industry's needs and the specific requirements of Livestock Insights Incorporated. We focused on creating a solution that is not only technologically advanced but also practical and user-friendly for fish farmers. 
+
+### Some Assumtions
 - Balanced real-time performance with scalability.
 - Ensured data security and compliance.
 
