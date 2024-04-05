@@ -15,10 +15,10 @@
 - [Operational Approach - No Fishy Deals](#operational-approach---no-fishy-deals-)
 - [Evolve - You adapt change](#evolve---you-adapt-change-)
 
-## Prologue  [🔝](#table-of-contents)
+## Prologue  [🔝](#tfish-watch)
 Livestock Insights Incorporated, a pioneer in livestock monitoring solutions, is venturing into aquaculture with its innovative FishWatch system. This platform is designed to revolutionize fish farming by providing real-time insights into water quality, fish health, and environmental conditions, enabling proactive management and optimization of fish farm operations.
 
-## The ArchBees - Our Insight  [🔝](#table-of-contents)
+## The ArchBees - Our Insight  [🔝](#tfish-watch)
 ### We 're BeeKeepers
 We specialize in scalable and robust systems, committed to delivering cutting-edge solutions that cater to the unique needs of our clients.
 
@@ -26,7 +26,7 @@ We specialize in scalable and robust systems, committed to delivering cutting-ed
 - Conducted a thorough analysis of the aquaculture industry and client requirements.
 - Developed a tailor-made architecture for FishWatch, focusing on flexibility, scalability, security and extensibility.
 
-## Lets Talk Business - FishWatch Key Requirements [🔝](#table-of-contents)
+## Lets Talk Business - FishWatch Key Requirements [🔝](#tfish-watch)
 - Multitenancy for data isolation among different users.
 - Scalability to handle increasing volumes of data and users.
 - Real-time analysis and data processing for immediate insights.
@@ -42,7 +42,7 @@ We specialize in scalable and robust systems, committed to delivering cutting-ed
 - Robust security measures to protect data and system integrity.
 - Compliance with regulations based on geographical locations.
 
-## Strategy [🔝](#table-of-contents)
+## Strategy [🔝](#tfish-watch)
 ### Methodology
 Adopted an iterative design process with client collaboration, focusing on modularity to accommodate future changes.
 
@@ -50,7 +50,7 @@ Adopted an iterative design process with client collaboration, focusing on modul
 - Balanced real-time performance with scalability.
 - Ensured data security and compliance.
 
-## High Level Architecture [🔝](#table-of-contents)
+## High Level Architecture [🔝](#tfish-watch)
 ### Edge Layer
 Includes sensors and cameras for data collection, and edge processors for local data analysis.
 
@@ -67,7 +67,7 @@ Web and mobile applications for farm monitoring and management.
 ### High-Level Architecture Diagram
 ![High-Level Architecture](high-level-architecture-diagram.png)
 
-## Capabilities & Systems - Our BeeHives [🔝](#table-of-contents)
+## Capabilities & Systems - Our BeeHives [🔝](#tfish-watch)
 - **Data Ingestion Service**: Ensures reliable data collection, employing message queues for data spikes and processors for validation.
 - **Data Storage**: 
   - **Time-Series Database**: Optimized for storing and querying sensor data.
@@ -84,7 +84,7 @@ Web and mobile applications for farm monitoring and management.
   - **Authorization**: Controls access based on user roles.
   - **Compliance**: Ensures adherence to regulatory standards.
 
-## Decisions - Focus is Honey [🔝](#table-of-contents)
+## Decisions - Focus is Honey [🔝](#tfish-watch)
 - **Edge Computing**: Utilized for local data processing to reduce latency.
 - **Microservices Architecture**: Adopted for scalability and flexibility.
 - **Cloud Platform Choice**: Selected based on scalability and service offerings (e.g., AWS, Azure, GCP).
@@ -93,12 +93,12 @@ Web and mobile applications for farm monitoring and management.
 - **API Management**: Employed an API gateway for security and scalability.
 - **Security Protocols**: Implemented industry-standard security practices (e.g., OAuth 2.0, JWT for authentication; HTTPS for data encryption).
 
-## Operational Approach - No Fishy Deals [🔝](#table-of-contents)
+## Operational Approach - No Fishy Deals [🔝](#tfish-watch)
 - **Deployment**: Automated deployment pipelines for consistent and reliable updates to the FishWatch system.
 - **Monitoring and Logging**: Utilized tools like Prometheus, Grafana, and the ELK Stack for system monitoring and log management.
 - **Disaster Recovery**: Cloud-based backup and replication strategies to ensure data integrity and system availability.
 
-## Evolve - You adapt change [🔝](#table-of-contents)
+## Evolve - You adapt change [🔝](#tfish-watch)
 - **Scalability Plans**: Designed to scale horizontally, allowing for increased capacity as the number of farms and data volume grows.
 - **Extensibility Considerations**: Modular architecture enables the addition of new features and integration with emerging technologies.
 - **Future Enhancements**: Potential integration with advanced sensors, IoT devices, and AI-driven analytics for enhanced fish health monitoring and environmental management.
