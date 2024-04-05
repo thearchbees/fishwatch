@@ -52,13 +52,6 @@ Our methodology for designing the FishWatch system was centered around a compreh
 
 <h4 align="center">Fig 1.1 FishWatch Solution Design 1</h4>
 
-### Architecture Work for FishWatch
-Our architectural work for the FishWatch system was guided by a deep understanding of the aquaculture industry's needs and the specific requirements of Livestock Insights Incorporated. We focused on creating a solution that is not only technologically advanced but also practical and user-friendly for fish farmers. 
-
-![image](./diagrams/FIshWatchSolutionApproach2.svg) 
-
-<h4 align="center">Fig 1.2 FishWatch Solution Design 2</h4>
-
 ### Some Assumptions
 - **Reliable Sensor Data**: Sensors and underwater cameras are assumed to provide accurate and reliable data for monitoring water quality and fish health.
 - **Stable Connectivity in Remote Areas**: A minimum level of network availability is assumed in remote locations for data transmission to the cloud platform.
@@ -70,6 +63,14 @@ Our architectural work for the FishWatch system was guided by a deep understandi
 - **Cross-Farm Insights**: For large customers, the system is assumed to be capable of aggregating and analyzing data across different farm locations to provide comprehensive insights.
 
 ## High Level Architecture [🔝](#fishwatch)
+
+### Architecture Work for FishWatch
+Our architectural work for the FishWatch system was guided by a deep understanding of the aquaculture industry's needs and the specific requirements of Livestock Insights Incorporated. We focused on creating a solution that is not only technologically advanced but also practical and user-friendly for fish farmers. 
+
+![image](./diagrams/FIshWatchSolutionApproach2.svg) 
+
+<h4 align="center">Fig 1.2 FishWatch Solution Design 2</h4>
+
 ### Edge Layer
 Includes sensors and cameras for data collection, and edge processors for local data analysis.
 
