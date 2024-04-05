@@ -45,12 +45,13 @@ Livestock Insights Incorporated, a pioneer in the field of livestock monitoring 
 
 ## Solution Approach [🔝](#fishwatch)
 Our methodology for designing the FishWatch system was centered around a comprehensive and collaborative approach. We began with a thorough analysis of the aquaculture industry's needs and the specific requirements outlined by Livestock Insights Incorporated.
+
+<h4 align="center">Fig 1.1 FishWatch Solution Design 1</h4>
+  ![image](./diagrams/FishWatchSolutionApproach1.svg) 
+  
 - **Solution Design**: Based on the requirements, we crafted a modular and scalable architecture that addresses the core objectives of real-time data processing & monitoring, data analysis, connectivity and user accessibility.
 
-**Fig 1.1**
-  ![image](./diagrams/FishWatchSolutionApproach1.svg) 
-
-**Fig 1.2**
+<h4 align="center">Fig 1.2 FishWatch Solution Design 2</h4>
   ![image](./diagrams/FIshWatchSolutionApproach2.svg) 
 
 ### Architecture Work for FishWatch
