@@ -76,7 +76,6 @@ Our methodology for designing the FishWatch system was centered around a compreh
 
 ### Some Assumptions
 - **Reliable Sensor Data**: Sensors and underwater cameras are assumed to provide accurate and reliable data for monitoring water quality and fish health.
-- **Stable Connectivity in Remote Areas**: A minimum level of network availability is assumed in remote locations for data transmission to the cloud platform.
 - **Scalable Cloud Infrastructure**: The cloud platform is assumed to have dynamic scaling capabilities to handle varying data volumes and user numbers.
 - **User Adoption and Training**: Fish farmers are assumed to be receptive to adopting the FishWatch system, with adequate training provided for effective use.
 - **Integration Compatibility**: Existing hardware and software systems at fish farms are assumed to support standard communication protocols and APIs for seamless integration.
