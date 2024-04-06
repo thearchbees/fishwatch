@@ -146,20 +146,20 @@ Robust strategies to ensure data integrity and system availability in case of fa
 
 ## Components & Systems - Our BeeHives [🔝](#fishwatch)
 - **Data Ingestion Service**: Ensures reliable data collection, employing message queues for data spikes and processors for validation.
-- **Data Storage**: 
-  - **Time-Series Database**: Optimized for storing and querying sensor data.
-  - **Data Lake**: Archives historical data and video feeds for deep analysis.
-- **Analytics Service**: 
-  - **Real-time Analytics**: Analyzes data streams for immediate insights.
-  - **Machine Learning**: Develops models for predictive analytics and anomaly detection.
-- **API Gateway**: 
-  - Facilitates secure and efficient API management.
-  - Routes API requests to appropriate services.
-  - Enforces rate limiting for fair usage.
+- **Data Processing Service**: Data transformation and analysis.
+- **Event Processing Service (EDA)**: Event-driven architecture management.
+- **Data Storage**:
+  - **Time-Series DB**: Sensor data storage.
+  - **Data Lake**: Historical data archiving.
+- **Analytics Service**: Real-time and ML analytics.
+- **API Gateway**: API request management.
+- **Security Service**: Authentication and compliance.
+- **Notification Service**: User alerts and notifications.
 - **Security Service**: 
   - **Authentication**: Verifies user identities and manages sessions.
   - **Authorization**: Controls access based on user roles.
-  - **Compliance**: Ensures adherence to regulatory standards.
+- **Web Application**: Browser-based monitoring and management interface.
+- **Mobile Application**: Mobile interface for on-the-go monitoring and management.
 
 ## Decisions - Focus is Honey [🔝](#fishwatch)
 - [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
