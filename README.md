@@ -86,7 +86,7 @@ Edge devices collect and locally process data from farm enclosures, playing a cr
 - **Edge Computing** 
   - Utilizes frameworks like AWS Greengrass or Azure IoT Edge to process data at the edge.
 
-**Decision Record** (ADR: Use of Edge Computing)
+**Decision Record**: [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
 
 ### Cloud Platform
 - **Data Ingestion Service**: Manages incoming data.
