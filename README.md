@@ -40,6 +40,7 @@ The FishWatch system addresses the diverse needs of fish farmers, offering compr
 - **Integration**: Seamless compatibility with existing fish farm hardware and software systems.
 - **User-Friendly Interface**: Intuitive design for easy access and interpretation of data.
 - **Reliability**: Functionality in remote locations and under challenging conditions.
+- **Extensibility**: Capability to incorporate future enhancements and additional features.
 
 ### Constraints in FishWatch Requirements
 
