@@ -58,7 +58,7 @@ Our methodology for designing the FishWatch system was centered around a compreh
   
 ![image](./diagrams/FishWatchSolutionApproach1.svg) 
 
-<h4 align="center">Fig 1.1 FishWatch Functional Design 1</h4>
+<h4 align="center">Fig. FishWatch Functional Design 1</h4>
 
 ### Some Assumptions
 - **Reliable Sensor Data**: Sensors and underwater cameras are assumed to provide accurate and reliable data for monitoring water quality and fish health.
@@ -77,7 +77,7 @@ Our architectural work for the FishWatch system was guided by a deep understandi
 
 ![image](./diagrams/FIshWatchSolutionApproach2.svg) 
 
-<h4 align="center">Fig 1.2 FishWatch Solution Design 2</h4>
+<h4 align="center">Fig. FishWatch System Design 1</h4>
 
 ### Edge Layer
 Includes sensors and cameras for data collection, and edge processors for local data analysis.
