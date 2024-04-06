@@ -30,6 +30,8 @@ Livestock Insights Incorporated, a pioneer in the field of livestock monitoring 
 ## Lets Talk Business - FishWatch Key Requirements [🔝](#fishwatch)
 The FishWatch system addresses the diverse needs of fish farmers, offering comprehensive monitoring and management capabilities for multiple farms across various geographical locations. The system aims to enhance the efficiency and effectiveness of fish farming operations through real-time data collection, advanced analytics, and timely alerts.
 
+![image](./diagrams/FishWatchKeyRequirements.svg) 
+
 - Multitenancy for data isolation among different users.
 - Scalability to handle increasing volumes of data and users.
 - Real-time analysis and data processing for immediate insights.
@@ -52,7 +54,7 @@ Our methodology for designing the FishWatch system was centered around a compreh
   
 ![image](./diagrams/FishWatchSolutionApproach1.svg) 
 
-<h4 align="center">Fig 1.1 FishWatch Solution Design 1</h4>
+<h4 align="center">Fig 1.1 FishWatch Functional Design 1</h4>
 
 ### Some Assumptions
 - **Reliable Sensor Data**: Sensors and underwater cameras are assumed to provide accurate and reliable data for monitoring water quality and fish health.
