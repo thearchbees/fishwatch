@@ -128,6 +128,17 @@ Proactive system monitoring and custom reporting tools provide insights and aler
 - **Logging** 
   - ELK Stack (Elasticsearch, Logstash, Kibana) for centralized log management.
 
+## User Interfaces
+Accessible, intuitive user interfaces allow fish farmers to monitor their operations easily and make informed decisions based on real-time data and insights.
+- **Web and Mobile Applications**       **❓** [Customizable Dashboards for Visualization and BI](./ADRs/Customizable%20Dashboards%20for%20Visualization%20and%20BI.md)
+  - SPA frameworks like React or Angular for web interfaces.
+  - Cross-platform mobile development with React Native or Flutter.
+
+## Connectivity Solutions       **❓** [Connectivity Solutions for Remote Locations](./ADRs/Connectivity%20Solutions%20for%20Remote%20Locations.md)
+Ensuring reliable connectivity for data transmission is essential, especially in remote locations with limited infrastructure.
+- **Hybrid Connectivity**
+  - A combination of satellite communications, cellular networks, and LPWAN technologies like LoRaWAN to maintain constant, reliable data transmission.
+
 ### Disaster Recovery and Backup       **❓** [Disaster Recovery and Data Backup Strategy](./ADRs/Disaster%20Recovery%20and%20Data%20Backup%20Strategy.md)
 Robust strategies to ensure data integrity and system availability in case of failures.
 - **Backup and Recovery**
