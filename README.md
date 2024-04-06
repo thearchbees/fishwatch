@@ -9,7 +9,7 @@
 - [Our Insight](#our-insight-)
 - [Lets Talk Business - FishWatch Key Requirements](#lets-talk-business---fishwatch-key-requirements-)
 - [Solution Approach](#solution-approach-)
-- [High Level Architecture](#high-level-architecture-)
+- [Architecture Work](#architecture-work-)
 - [Capabilities & Systems - Our BeeHives](#capabilities--systems---our-beehives-)
 - [Decisions - Focus is Honey](#decisions---focus-is-honey-)
 - [Operational Strategy - No Fishy Deals](#operational-strategy---no-fishy-deals-)
@@ -71,14 +71,15 @@ Our methodology for designing the FishWatch system was centered around a compreh
 - **Extensibility for Future Enhancements**: The system is designed to be extensible, with the assumption that future enhancements will not require a complete architectural overhaul.
 - **Cross-Farm Insights**: For large customers, the system is assumed to be capable of aggregating and analyzing data across different farm locations to provide comprehensive insights.
 
-## High Level Architecture [🔝](#fishwatch)
+## Architecture Work [🔝](#fishwatch)
 Our architectural work for the FishWatch system was guided by a deep understanding of the aquaculture industry's needs and the specific requirements of Livestock Insights Incorporated. we crafted a modular and scalable architecture that addresses the core objectives of real-time data processing & monitoring, data analysis, connectivity and user accessibility.
 
 ![image](./diagrams/FIshWatchSolutionApproach2.svg) 
 
 <h4 align="center">Fig. FishWatch System Design 1</h4>
 
-### Edge Layer       **❓** [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
+### Edge Layer       
+**❓** [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
 Edge devices collect and locally process data from farm enclosures, playing a critical role in the FishWatch ecosystem.
 
 - **IoT Devices** 
@@ -89,43 +90,38 @@ Edge devices collect and locally process data from farm enclosures, playing a cr
 ### Cloud Platform
 The cloud platform is the central hub for FishWatch, providing robust, scalable services that process, store, and analyze data from various edge devices.
 
-#### Compute
+#### Compute      
+**❓** [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
 - **Kubernetes Clusters**
   - Hosted on AWS EKS or Azure AKS for container orchestration.
   - Facilitates the deployment and management of microservices.
-    
-      **❓** [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
 
-#### Data Storage
+#### Data Storage       
+**❓** [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)  
+**❓** [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
 - **Time-Series Database** 
   - InfluxDB for real-time sensor data management and queries.
 - **Data Lake** 
   - AWS S3 or Azure Data Lake Storage for storing vast amounts of unstructured data.
 
-      **❓** [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)
-      **❓** [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
-
 #### Data Processing and Analytics
+**❓** [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
 - **Stream Processing** 
   - Apache Kafka for managing real-time data streams.
 - **Batch Processing**
   - Apache Spark for complex batch computations.
-    
-      **❓** [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
 
 #### Machine Learning and Insights
+**❓** [AI and Machine Learning Framework Selection](./ADRs/Machine%20Learning%20Framework%20Selection.md)
 - **Machine Learning Platforms** 
   - TensorFlow or PyTorch for building and deploying ML models, with AWS SageMaker or Azure Machine Learning.
 - **Business Intelligence** (ADR #5: Customizable Dashboards for Visualization and BI)
   - Integration with Tableau or Microsoft Power BI for generating actionable insights through interactive dashboards.
 
-      **❓** [AI and Machine Learning Framework Selection](./ADRs/Machine%20Learning%20Framework%20Selection.md)
-
 #### API Management
+**❓** [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
 - **API Gateway** (ADR #5: API Gateway for Secure API Management)
   - AWS API Gateway or Azure API Management for secure and scalable API interactions.
-    
-      **❓** [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
 
 #### Security
 - **Identity and Access Management** (ADR #7: Security and Compliance Measures)
@@ -136,20 +132,18 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 ### Monitoring, Alerting, and Reporting
 Proactive system monitoring and custom reporting tools provide insights and alert farmers to potential issues in real-time.
 
-- **Monitoring Tools** 
+- **Monitoring Tools**
+**❓** [Monitoring and Logging Strategy](./ADRs/Monitoring%20and%20Logging%20Strategy.md)
   - Prometheus and Grafana for system monitoring and visualizing metrics.
 - **Logging** 
   - ELK Stack (Elasticsearch, Logstash, Kibana) for centralized log management.
-  
-      **❓** [Monitoring and Logging Strategy](./ADRs/Monitoring%20and%20Logging%20Strategy.md)
 
 ### Disaster Recovery and Backup
+**❓** [Disaster Recovery and Data Backup Strategy](./ADRs/Disaster%20Recovery%20and%20Data%20Backup%20Strategy.md)
 Robust strategies to ensure data integrity and system availability in case of failures.
 
 - **Backup and Recovery**
   - Automated snapshots, cross-region replication, and disaster recovery planning with AWS or Azure services.
- 
-      **❓** [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
     
 ### High-Level Architecture Diagram
 ![High-Level Architecture](high-level-architecture-diagram.png)
