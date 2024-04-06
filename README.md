@@ -86,8 +86,8 @@ Edge devices collect and locally process data from farm enclosures, playing a cr
 - **Edge Computing** 
   - Utilizes frameworks like AWS Greengrass or Azure IoT Edge to process data at the edge.
 
-❔**ADR**
-      [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
+      **❓**
+            [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
 
 ### Cloud Platform
 The cloud platform is the central hub for FishWatch, providing robust, scalable services that process, store, and analyze data from various edge devices.
@@ -97,8 +97,8 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
   - Hosted on AWS EKS or Azure AKS for container orchestration.
   - Facilitates the deployment and management of microservices.
     
-❔**ADR**
-      [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
+      **❓**
+            [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
 
 #### Data Storage
 - **Time-Series Database** 
@@ -106,9 +106,9 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Data Lake** 
   - AWS S3 or Azure Data Lake Storage for storing vast amounts of unstructured data.
 
-❔**ADR** 
-      [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)
-      [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
+      **❓** 
+            [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)
+            [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
 
 #### Data Processing and Analytics
 - **Stream Processing** 
@@ -116,8 +116,8 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Batch Processing**
   - Apache Spark for complex batch computations.
     
-❔**ADR**
-      [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
+      **❓**
+            [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
 
 #### Machine Learning and Insights
 - **Machine Learning Platforms** 
@@ -125,15 +125,13 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Business Intelligence** (ADR #5: Customizable Dashboards for Visualization and BI)
   - Integration with Tableau or Microsoft Power BI for generating actionable insights through interactive dashboards.
 
-❔**ADR**
-      [AI and Machine Learning Framework Selection](./ADRs/Machine%20Learning%20Framework%20Selection.md)
+    **❓** [AI and Machine Learning Framework Selection](./ADRs/Machine%20Learning%20Framework%20Selection.md)
 
 #### API Management
 - **API Gateway** (ADR #5: API Gateway for Secure API Management)
   - AWS API Gateway or Azure API Management for secure and scalable API interactions.
     
-❔**ADR**
-      [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
+      **❓** [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
 
 #### Security
 - **Identity and Access Management** (ADR #7: Security and Compliance Measures)
