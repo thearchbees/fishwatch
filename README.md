@@ -79,7 +79,14 @@ Our architectural work for the FishWatch system was guided by a deep understandi
 <h4 align="center">Fig. FishWatch System Design 1</h4>
 
 ### Edge Layer
-Includes sensors and cameras for data collection, and edge processors for local data analysis.
+Edge devices collect and locally process data from farm enclosures, playing a critical role in the FishWatch ecosystem.
+
+- **IoT Devices** 
+  - Devices equipped with sensors and cameras for data collection and initial processing.
+- **Edge Computing** 
+  - Utilizes frameworks like AWS Greengrass or Azure IoT Edge to process data at the edge.
+
+**Decision Record** (ADR: Use of Edge Computing)
 
 ### Cloud Platform
 - **Data Ingestion Service**: Manages incoming data.
