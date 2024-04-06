@@ -49,6 +49,8 @@ The FishWatch system addresses the diverse needs of fish farmers, offering compr
 - **Regulatory Compliance**: Adherence to data security, environmental, and farming regulations.
 - **Environmental Conditions**: Durability of hardware components under harsh conditions.
 
+* [FishWatch Requirements Document](./requirements/FishWatch_livestockinsightsinc.pdf)
+
 ## Solution Approach [🔝](#fishwatch)
 Our methodology for designing the FishWatch system was centered around a comprehensive and collaborative approach. We began with a thorough analysis of the aquaculture industry's needs and the specific requirements outlined by Livestock Insights Incorporated.
 
