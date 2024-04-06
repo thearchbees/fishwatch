@@ -142,7 +142,7 @@ Robust strategies to ensure data integrity and system availability in case of fa
 
     
 ### High-Level Architecture Diagram
-![High-Level Architecture](high-level-architecture-diagram.png)
+![image](./diagrams/FishWatchHighLevelArchitecture.svg) 
 
 ## Components & Systems - Our BeeHives [🔝](#fishwatch)
 - **Data Ingestion Service**: Ensures reliable data collection, employing message queues for data spikes and processors for validation.
