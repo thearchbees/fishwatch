@@ -61,6 +61,19 @@ Our methodology for designing the FishWatch system was centered around a compreh
 
 <h4 align="center">Fig. FishWatch Functional Design 1</h4>
 
+### Stakeholders of the FishWatch System
+
+- **Fish Farmers**: Manage daily fish farm operations.
+- **Industry Experts**: Offer guidance on system use and best practices.
+- **Fishery Management**: Oversee fisheries' regulation and sustainability.
+- **Aquatic Health Professionals**: Focus on the health of aquatic species.
+- **Meteorological Agencies**: Provide weather data for farm management.
+- **Research Institutions**: Study aquaculture and related fields.
+- **Regulatory Bodies**: Ensure compliance with environmental standards.
+- **Technology Suppliers**: Provide hardware, software, and services.
+- **Financial Stakeholders**: Support the initiative with funding.
+- **Consumer Advocacy Groups**: Represent interests regarding product quality and sustainability.
+
 ### Some Assumptions
 - **Reliable Sensor Data**: Sensors and underwater cameras are assumed to provide accurate and reliable data for monitoring water quality and fish health.
 - **Stable Connectivity in Remote Areas**: A minimum level of network availability is assumed in remote locations for data transmission to the cloud platform.
