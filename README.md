@@ -86,14 +86,49 @@ Edge devices collect and locally process data from farm enclosures, playing a cr
 - **Edge Computing** 
   - Utilizes frameworks like AWS Greengrass or Azure IoT Edge to process data at the edge.
 
-**Decision Record** (ADR: Use of Edge Computing)
+**Decision Record**: [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
 
 ### Cloud Platform
-- **Data Ingestion Service**: Manages incoming data.
-- **Data Storage**: Utilizes time-series databases and data lakes.
-- **Analytics Service**: Provides real-time and historical data analysis.
-- **API Gateway**: Secures and manages API access.
-- **Security Service**: Ensures authentication, authorization, and compliance.
+The cloud platform is the central hub for FishWatch, providing robust, scalable services that process, store, and analyze data from various edge devices.
+
+#### Compute
+- **Kubernetes Clusters**
+  - Hosted on AWS EKS or Azure AKS for container orchestration.
+  - Facilitates the deployment and management of microservices.
+**Decision Record**: (ADR #3) [Cloud Platform Selection](./ADRs/Use%20of%20Edge%20Computing.md)
+
+#### Data Storage
+- **Time-Series Database** 
+  - InfluxDB for real-time sensor data management and queries.
+- **Data Lake** (ADR #6: Data Lake for Historical Data Analysis)
+  - AWS S3 or Azure Data Lake Storage for storing vast amounts of unstructured data.
+**Decision Record**: (ADR #4) [Time-Series Database Implementation](./ADRs/Use%20of%20Edge%20Computing.md)
+
+#### Data Processing and Analytics
+- **Stream Processing** 
+  - Apache Kafka for managing real-time data streams.
+- **Batch Processing** (ADR #9: Data Processing Framework for Real-Time Analytics)
+  - Apache Spark for complex batch computations.
+**Decision Record**: (ADR #9) [Data Processing Framework for Real-Time Analytics](./ADRs/Use%20of%20Edge%20Computing.md)
+
+#### Machine Learning and Insights
+- **Machine Learning Platforms** (ADR #4: Data Storage for AI and ML)
+  - TensorFlow or PyTorch for building and deploying ML models, with AWS SageMaker or Azure Machine Learning.
+- **Business Intelligence** (ADR #5: Customizable Dashboards for Visualization and BI)
+  - Integration with Tableau or Microsoft Power BI for generating actionable insights through interactive dashboards.
+**Decision Record**: [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
+
+#### API Management
+- **API Gateway** (ADR #5: API Gateway for Secure API Management)
+  - AWS API Gateway or Azure API Management for secure and scalable API interactions.
+**Decision Record**: [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
+
+#### Security
+- **Identity and Access Management** (ADR #7: Security and Compliance Measures)
+  - AWS IAM or Azure Active Directory for managing user access and permissions.
+- **Encryption and Data Protection** (ADR #7: Security and Compliance Measures)
+  - AWS KMS or Azure Key Vault for data encryption.
+**Decision Record**: [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
 
 ### User Interfaces
 Web and mobile applications for farm monitoring and management.
