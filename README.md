@@ -40,6 +40,7 @@ The FishWatch system addresses the diverse needs of fish farmers, offering compr
 - **Integration**: Seamless compatibility with existing fish farm hardware and software systems.
 - **User-Friendly Interface**: Intuitive design for easy access and interpretation of data.
 - **Reliability**: Functionality in remote locations and under challenging conditions.
+- **Extensibility**: Capability to incorporate future enhancements and additional features.
 
 ### Constraints in FishWatch Requirements
 
@@ -58,7 +59,7 @@ Our methodology for designing the FishWatch system was centered around a compreh
   
 ![image](./diagrams/FishWatchSolutionApproach1.svg) 
 
-<h4 align="center">Fig 1.1 FishWatch Functional Design 1</h4>
+<h4 align="center">Fig. FishWatch Functional Design 1</h4>
 
 ### Some Assumptions
 - **Reliable Sensor Data**: Sensors and underwater cameras are assumed to provide accurate and reliable data for monitoring water quality and fish health.
@@ -71,13 +72,11 @@ Our methodology for designing the FishWatch system was centered around a compreh
 - **Cross-Farm Insights**: For large customers, the system is assumed to be capable of aggregating and analyzing data across different farm locations to provide comprehensive insights.
 
 ## High Level Architecture [🔝](#fishwatch)
-
-### Architecture Work for FishWatch
 Our architectural work for the FishWatch system was guided by a deep understanding of the aquaculture industry's needs and the specific requirements of Livestock Insights Incorporated. we crafted a modular and scalable architecture that addresses the core objectives of real-time data processing & monitoring, data analysis, connectivity and user accessibility.
 
 ![image](./diagrams/FIshWatchSolutionApproach2.svg) 
 
-<h4 align="center">Fig 1.2 FishWatch Solution Design 2</h4>
+<h4 align="center">Fig. FishWatch System Design 1</h4>
 
 ### Edge Layer
 Includes sensors and cameras for data collection, and edge processors for local data analysis.
