@@ -80,24 +80,23 @@ Our architectural work for the FishWatch system was guided by a deep understandi
 
 ### Edge Layer       **❓** [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
 Edge devices collect and locally process data from farm enclosures, playing a critical role in the FishWatch ecosystem.
-
 - **IoT Devices** 
   - Devices equipped with sensors and cameras for data collection and initial processing.
 - **Edge Computing** 
   - Utilizes frameworks like AWS Greengrass or Azure IoT Edge to process data at the edge.
 
-### Cloud Platform
+### Cloud Platform      **❓** [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
 The cloud platform is the central hub for FishWatch, providing robust, scalable services that process, store, and analyze data from various edge devices.
 
-#### Compute      **❓** [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
+#### Compute
 - **Kubernetes Clusters**
   - Hosted on AWS EKS or Azure AKS for container orchestration.
   - Facilitates the deployment and management of microservices.
 
-#### Data Storage       **❓** [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)  **❓** [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
-- **Time-Series Database** 
+#### Data Storage
+- **Time-Series Database**        **❓** [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)
   - InfluxDB for real-time sensor data management and queries.
-- **Data Lake** 
+- **Data Lake**        **❓** [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
   - AWS S3 or Azure Data Lake Storage for storing vast amounts of unstructured data.
 
 #### Data Processing and Analytics       **❓** [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
@@ -122,17 +121,15 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Encryption and Data Protection** (ADR #7: Security and Compliance Measures)
   - AWS KMS or Azure Key Vault for data encryption.             
 
-### Monitoring, Alerting, and Reporting
+### Monitoring, Alerting, and Reporting       **❓** [Monitoring and Logging Strategy](./ADRs/Monitoring%20and%20Logging%20Strategy.md)
 Proactive system monitoring and custom reporting tools provide insights and alert farmers to potential issues in real-time.
-
-- **Monitoring Tools**       **❓** [Monitoring and Logging Strategy](./ADRs/Monitoring%20and%20Logging%20Strategy.md)
+- **Monitoring Tools**
   - Prometheus and Grafana for system monitoring and visualizing metrics.
 - **Logging** 
   - ELK Stack (Elasticsearch, Logstash, Kibana) for centralized log management.
 
 ### Disaster Recovery and Backup       **❓** [Disaster Recovery and Data Backup Strategy](./ADRs/Disaster%20Recovery%20and%20Data%20Backup%20Strategy.md)
 Robust strategies to ensure data integrity and system availability in case of failures.
-
 - **Backup and Recovery**
   - Automated snapshots, cross-region replication, and disaster recovery planning with AWS or Azure services.
     
