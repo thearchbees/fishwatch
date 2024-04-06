@@ -150,13 +150,19 @@ Robust strategies to ensure data integrity and system availability in case of fa
   - **Compliance**: Ensures adherence to regulatory standards.
 
 ## Decisions - Focus is Honey [🔝](#fishwatch)
-- **Edge Computing**: Utilized for local data processing to reduce latency.
-- **Microservices Architecture**: Adopted for scalability and flexibility.
-- **Cloud Platform Choice**: Selected based on scalability and service offerings (e.g., AWS, Azure, GCP).
-- **Data Storage Solutions**: Chosen for efficient data management (e.g., InfluxDB, TimescaleDB for time-series data; Hadoop, S3 for data lakes).
-- **Analytics Tools**: Apache Kafka and Apache Flink for real-time data processing; TensorFlow, PyTorch for machine learning.
-- **API Management**: Employed an API gateway for security and scalability.
-- **Security Protocols**: Implemented industry-standard security practices (e.g., OAuth 2.0, JWT for authentication; HTTPS for data encryption).
+- [Use of Edge Computing](./ADRs/Use%20of%20Edge%20Computing.md)
+- [Microservices Architecture](./ADRs/Microservices%20Architecture.md)
+- [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
+- [Time-Series Database Implementation](./ADRs/Time-Series%20Database%20Implementation.md)
+- [Customizable Dashboards for Visualization and BI](./ADRs/Customizable%20Dashboards%20for%20Visualization%20and%20BI.md)
+- [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
+- [Security and Compliance Measures](./ADRs/Security%20and%20Compliance%20Measures.md)
+- [Connectivity Solutions for Remote Locations](./ADRs/Connectivity%20Solutions%20for%20Remote%20Locations.md)
+- [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
+- [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
+- [Monitoring and Logging Strategy](./ADRs/Monitoring%20and%20Logging%20Strategy.md)
+- [Disaster Recovery and Data Backup Strategy](./ADRs/Disaster%20Recovery%20and%20Data%20Backup%20Strategy.md)
+
 
 ## Operational Strategy - No Fishy Deals [🔝](#fishwatch)
 - **Deployment**: Automated deployment pipelines for consistent and reliable updates to the FishWatch system.
