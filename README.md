@@ -97,8 +97,8 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
   - Hosted on AWS EKS or Azure AKS for container orchestration.
   - Facilitates the deployment and management of microservices.
     
-      **❓**
-            [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
+      - **❓**
+        - [Cloud Platform Selection](./ADRs/Cloud%20Platform%20Selection.md)
 
 #### Data Storage
 - **Time-Series Database** 
@@ -106,9 +106,9 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Data Lake** 
   - AWS S3 or Azure Data Lake Storage for storing vast amounts of unstructured data.
 
-      **❓** 
-            [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)
-            [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
+    - **❓** 
+      - [Time-Series Database Implementation](./ADRsTime-Series%20Database%20Implementation.md)
+      - [Data Lake for Historical Data Analysis](./ADRs/Data%20Lake%20for%20Historical%20Data%20Analysis.md)
 
 #### Data Processing and Analytics
 - **Stream Processing** 
@@ -116,8 +116,8 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Batch Processing**
   - Apache Spark for complex batch computations.
     
-      **❓**
-            [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
+    - **❓**
+      - [Data Processing Framework for Real-Time Analytics](./ADRs/Data%20Processing%20Framework%20for%20Real-Time%20Analytics.md)
 
 #### Machine Learning and Insights
 - **Machine Learning Platforms** 
@@ -125,23 +125,41 @@ The cloud platform is the central hub for FishWatch, providing robust, scalable 
 - **Business Intelligence** (ADR #5: Customizable Dashboards for Visualization and BI)
   - Integration with Tableau or Microsoft Power BI for generating actionable insights through interactive dashboards.
 
-    **❓** [AI and Machine Learning Framework Selection](./ADRs/Machine%20Learning%20Framework%20Selection.md)
+    - **❓**
+       - [AI and Machine Learning Framework Selection](./ADRs/Machine%20Learning%20Framework%20Selection.md)
 
 #### API Management
 - **API Gateway** (ADR #5: API Gateway for Secure API Management)
   - AWS API Gateway or Azure API Management for secure and scalable API interactions.
     
-      **❓** [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
+    - **❓**
+         - [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
 
 #### Security
 - **Identity and Access Management** (ADR #7: Security and Compliance Measures)
   - AWS IAM or Azure Active Directory for managing user access and permissions.
 - **Encryption and Data Protection** (ADR #7: Security and Compliance Measures)
-  - AWS KMS or Azure Key Vault for data encryption.
+  - AWS KMS or Azure Key Vault for data encryption.             
 
-### User Interfaces
-Web and mobile applications for farm monitoring and management.
+### Monitoring, Alerting, and Reporting
+Proactive system monitoring and custom reporting tools provide insights and alert farmers to potential issues in real-time.
 
+- **Monitoring Tools** 
+  - Prometheus and Grafana for system monitoring and visualizing metrics.
+- **Logging** 
+  - ELK Stack (Elasticsearch, Logstash, Kibana) for centralized log management.
+  
+  - **❓**
+     - [Monitoring and Logging Strategy](./ADRs/Monitoring%20and%20Logging%20Strategy.md)
+
+### Disaster Recovery and Backup
+Robust strategies to ensure data integrity and system availability in case of failures.
+
+- **Backup and Recovery**
+  - Automated snapshots, cross-region replication, and disaster recovery planning with AWS or Azure services.
+ 
+     **❓** [API Gateway for Secure API Management](./ADRs/API%20Gateway%20for%20Secure%20API%20Management.md)
+    
 ### High-Level Architecture Diagram
 ![High-Level Architecture](high-level-architecture-diagram.png)
 
