@@ -28,6 +28,8 @@ Livestock Insights Incorporated, a pioneer in the field of livestock monitoring 
   We specialize in scalable and robust systems, committed to delivering cutting-edge solutions that cater to the unique needs of our clients. 
 
 ## Lets Talk Business - FishWatch Key Requirements [🔝](#fishwatch)
+The FishWatch system addresses the diverse needs of fish farmers, offering comprehensive monitoring and management capabilities for multiple farms across various geographical locations. The system aims to enhance the efficiency and effectiveness of fish farming operations through real-time data collection, advanced analytics, and timely alerts.
+
 - Multitenancy for data isolation among different users.
 - Scalability to handle increasing volumes of data and users.
 - Real-time analysis and data processing for immediate insights.
