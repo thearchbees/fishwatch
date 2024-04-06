@@ -32,20 +32,22 @@ The FishWatch system addresses the diverse needs of fish farmers, offering compr
 
 ![image](./diagrams/FishWatchKeyRequirements.svg) 
 
-- Multitenancy for data isolation among different users.
-- Scalability to handle increasing volumes of data and users.
-- Real-time analysis and data processing for immediate insights.
-- Data storage with support for AI and ML algorithms.
-- Customizable dashboards for visualization and business intelligence.
-- Text-to-speech and voice assistant features for enhanced user interaction.
-- Voice search capabilities.
-- A customizable alerting and notification system.
-- Advanced analytics for comparison, benchmarking, and optimization.
-- Reliable connectivity and networking solutions.
-- Integration with hardware and low network devices like satellite communication systems.
-- Extensibility for future enhancements.
-- Robust security measures to protect data and system integrity.
-- Compliance with regulations based on geographical locations.
+### Key Characteristics
+
+- **Real-Time Monitoring**: Essential for timely decision-making and proactive management.
+- **Scalability**: Ability to handle increasing data volume and user base as farms expand.
+- **Customizability**: Dashboards and alerts should be tailored to individual farmer needs.
+- **Integration**: Seamless compatibility with existing fish farm hardware and software systems.
+- **User-Friendly Interface**: Intuitive design for easy access and interpretation of data.
+- **Reliability**: Functionality in remote locations and under challenging conditions.
+
+### Constraints in FishWatch Requirements
+
+- **Connectivity**: Limited or unreliable network availability in remote areas.
+- **Data Accuracy**: Critical importance of precise sensor and camera data.
+- **Security and Privacy**: Robust measures needed to protect sensitive information.
+- **Regulatory Compliance**: Adherence to data security, environmental, and farming regulations.
+- **Environmental Conditions**: Durability of hardware components under harsh conditions.
 
 ## Solution Approach [🔝](#fishwatch)
 Our methodology for designing the FishWatch system was centered around a comprehensive and collaborative approach. We began with a thorough analysis of the aquaculture industry's needs and the specific requirements outlined by Livestock Insights Incorporated.
