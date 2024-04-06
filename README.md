@@ -71,8 +71,6 @@ Our methodology for designing the FishWatch system was centered around a compreh
 - **Cross-Farm Insights**: For large customers, the system is assumed to be capable of aggregating and analyzing data across different farm locations to provide comprehensive insights.
 
 ## High Level Architecture [🔝](#fishwatch)
-
-### Architecture Work for FishWatch
 Our architectural work for the FishWatch system was guided by a deep understanding of the aquaculture industry's needs and the specific requirements of Livestock Insights Incorporated. we crafted a modular and scalable architecture that addresses the core objectives of real-time data processing & monitoring, data analysis, connectivity and user accessibility.
 
 ![image](./diagrams/FIshWatchSolutionApproach2.svg) 
